@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Donate Food | ShareFood</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- PAGE HEADER -->
+<header class="page-header">
+    <h1>Donate Surplus Food</h1>
+    <p>Your extra food can change someone’s life</p>
+</header>
+
+<!-- NAV -->
+<nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="donate.html">Donate</a>
+    <a href="request.html">Request Food</a>
+</nav>
+
+<!-- DONATION FORM -->
+<section class="form-container">
+    <form onsubmit="saveDonation(); return false;">
+    <label>Donor Name</label>
+    <input type="text" id="donor" required>
+
+    <label>Food Description</label>
+    <input type="text" id="food" required>
+
+    <label>Quantity</label>
+    <input type="text" id="quantity" required>
+
+    <label>Pickup Location</label>
+    <input type="text" id="location" required>
+
+    <label>Available Till</label>
+    <input type="time" id="time" required>
+
+    <button type="submit">Donate Now 🍲</button>
+</form>
+</section>
+
+<footer>
+    <p>Thank you for helping reduce hunger 🌱</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f4f7f6;
+    color: #333;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(135deg, #2e7d32, #66bb6a);
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* BUTTONS */
+.hero-buttons .btn {
+    padding: 12px 30px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 10px;
+    display: inline-block;
+}
+
+.btn.primary {
+    background: white;
+    color: #2e7d32;
+}
+
+.btn.secondary {
+    border: 2px solid white;
+    color: white;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #1b5e20;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+/* SECTIONS */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.section.light {
+    background: #e8f5e9;
+}
+
+/* CARDS */
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 260px;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* IMPACT */
+.impact {
+    background: #2e7d32;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.impact-box {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.impact-box h3 {
+    font-size: 2.5rem;
+}
+
+/* FOOTER */
+footer {
+    background: #1b5e20;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container input,
+.form-container button {
+    margin-bottom: 12px;
+}
+/* ===== FIX DONATE FORM LAYOUT ===== */
+
+.form-container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-container label {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+.form-container input {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.form-container button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #256428;
+}
