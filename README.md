@@ -4,4 +4,6 @@ The platform allows donors to list surplus food, and NGOs to request or accept f
 
 Website Link:
 
-calm-croquembouche-e302eb.netlify.app
+https://calm-croquembouche-e302eb.netlify.app/
+
+https://glistening-dragon-7a2677.netlify.app/
